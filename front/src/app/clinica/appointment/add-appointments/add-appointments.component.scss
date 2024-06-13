@@ -1,0 +1,19 @@
+.form-control::placeholder {
+    color: #b0b0b0; /* Color más claro para el texto del placeholder */
+    opacity: 1;    /* Asegura que el color sea aplicado en todos los navegadores */
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    border-top-color: rgb(17, 155, 91);
+    animation: spin 1s ease-in-out infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  
